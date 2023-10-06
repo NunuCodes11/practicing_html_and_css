@@ -61,3 +61,7 @@ p::before {
 	margin-right: 4px;
 	padding-left: 4px
 }
+/*attribute selector*/
+a[href*=duck] {
+	color: pink;
+}
